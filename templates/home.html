@@ -1,0 +1,23 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> CAR PRICE PREDICTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Year :  <input type="text", name='Year', placeholder="enter 1"> <br><br>
+            Showroom Price :  <input type="text", name='Present_Price', placeholder="enter 2"> <br><br>
+            KMs Driven :  <input type="text", name='Kms_Driven', placeholder="enter 3"> <br><br>
+            Seller Type : <input type="text", name='Seller_Type', placeholder="enter 4"> <br><br>
+            Transmission :  <input type="text", name='Transmission', placeholder="enter 5"> <br><br>
+            Owner :  <input type="text", name='Owner', placeholder="enter 6"> <br><br>
+            Diesel :  <input type="text", name='Fuel_Diesel', placeholder="enter 7"> <br><br>
+            Petrol :  <input type="text", name='Fuel_Petrol', placeholder="enter 8"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+        
+    </center>
+
+    </body>
+</html>
